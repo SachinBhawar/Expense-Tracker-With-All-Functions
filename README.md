@@ -15,7 +15,7 @@
 ## Demo 🎥
 
 Check out the live demo of the app here:  
-[Expense Tracker Live Demo](https://vercel.com/sachins-projects-a0331359/expense-tracker)
+[Expense Tracker Live Demo](https://expense-tracker-by-sachin.vercel.app/)
 
 ## Screenshots 📸
 
