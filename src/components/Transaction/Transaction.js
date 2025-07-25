@@ -15,7 +15,7 @@ const Transaction = ({ expense, deleteExpense, initiateUpdateExpense, index }) =
             <div>{expense.text}</div>
             <div className={styles.transactionOptions}>
                 <div className={`${styles.amount} ${currentHoverIndex === index && styles.movePrice}`}>
-                    ${expense.amount.toFixed(2)}
+                    &#8377; {expense.amount.toFixed(2)}
                 </div>
                 <div className={`${styles.btnContainer} ${currentHoverIndex === index && styles.active}`}>
                     <div className={styles.edit} onClick={() => initiateUpdateExpense(expense.id)}>
